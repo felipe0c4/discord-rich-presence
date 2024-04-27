@@ -18,7 +18,7 @@ while True:
     os.system("cls")
     open_time_m += 1
 
-    if open_time_m > 60:
+    if open_time_m >= 60:
         open_time_h += 1
         open_time_m -= 60
     print("RPC ativo a: ", open_time_h, "horas e", open_time_m, "minutos")
