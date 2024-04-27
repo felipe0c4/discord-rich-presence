@@ -5,7 +5,7 @@ import os
 client_id = #APPLICATION ID
 RPC = Presence(client_id)
 RPC.connect()
-open_time_m = 0
+open_time_m = -1
 open_time_h = 0
 start_time = int(time.time())
 
