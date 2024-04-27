@@ -2,7 +2,7 @@ from pypresence import Presence
 import time
 import os
 
-client_id = 672439321143410731
+client_id = # id
 RPC = Presence(client_id)
 RPC.connect()
 open_time_m = -1
@@ -11,7 +11,7 @@ start_time = int(time.time())
 
 while True:
     RPC.update(
-        large_image="batata",
+        large_image="  assets ",
         start=start_time,
         buttons=[{"label": "Follow me", "url": "https://github.com/felipe0c4"}]
     )
