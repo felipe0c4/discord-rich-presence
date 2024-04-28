@@ -11,7 +11,8 @@ start_time = int(time.time())
 
 while True:
     RPC.update(
-        large_image="  assets ",
+        large_image=" assets ",
+        details =" details ",
         start=start_time,
         buttons=[{"label": "Follow me", "url": "https://github.com/felipe0c4"}]
     )
